@@ -1,0 +1,29 @@
+.wrapper_qrcode {
+  margin-top: 100px;
+
+  .qrcode_title {
+    @include text-title-regular($p100);
+    text-align: center;
+  }
+  .qrcode_tagline {
+    @include text-general($p100)
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .qrcode_instruction {
+      @include text-general($p100);
+      text-align: center;
+  }
+
+  .qrcode_body {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    img {
+      border-radius: 5px;
+      box-shadow: 0 10px 14px 1px rgba(0, 0, 0, 0.5);
+    }
+  }
+}
