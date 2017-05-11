@@ -11,6 +11,7 @@ class Sidebar extends Component {
             <li className='menu_item'><Link to='/roadmap' activeClassName='active'>Roadmap</Link></li>
             <li className='menu_item'><Link to='/membership' activeClassName='active'>Membership</Link></li>
             <li className='menu_item'><Link to='/contact' activeClassName='active'>Contact us</Link></li>
+            <li className='menu_item'><Link to='http://es.bankofthecommons.coop/' activeClassName='active'>Español</Link></li>
           </ul>
         </aside>
     )
